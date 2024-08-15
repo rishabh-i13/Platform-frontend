@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box; 
+  }
+
+::-webkit-scrollbar { 
+    width: 3px;
+  } 
+  ::-webkit-scrollbar-track { 
+    background: transparent; 
+  } 
+  ::-webkit-scrollbar-thumb { 
+    background: rgb(102, 166, 255);
+    border-radius: 10px;
+  }
+  

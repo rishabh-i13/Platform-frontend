@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-    <Header/> 
-      <main className=' ris p-[10px] max-w-[70%] mx-auto flex flex-col items-center '>
-        <Posts/>
+      <Header />
+      <main className='w-full lg:w-[80%] mx-auto flex flex-col items-center '>
+        <Posts />
       </main>
     </>
   )
