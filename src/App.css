@@ -1,0 +1,16 @@
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Media query for larger screens (lg equivalent in Tailwind) */
+  @media (min-width: 1024px) {
+    main {
+      width: 80%;
+    }
+  }
+  
